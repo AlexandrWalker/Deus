@@ -59,5 +59,21 @@
       });
     })();
 
+    const heroSlider = new Swiper('.hero__slider', {
+      loop: true,
+      effect: "fade",
+      slidesPerView: 1,
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.hero__slider-next',
+        prevEl: '.hero__slider-prev'
+      },
+    });
+
   });
 })();
