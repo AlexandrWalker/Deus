@@ -1,0 +1,24 @@
+.hero {
+
+  &__inner {}
+
+  &__slider {
+
+    &-item {
+      display: flex;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+      margin-bottom: 20px;
+    }
+
+    &-subtitle {
+      margin-bottom: 50px;
+    }
+  }
+}
