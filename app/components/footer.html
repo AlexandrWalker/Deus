@@ -3,7 +3,7 @@
     <div class="footer__inner">
       <div class="footer__top">
         <a class="footer__logo" href="/">
-          <img class="footer__logo-img" src="../images/logo-footer.svg" alt="">
+          <img class="footer__logo-img" src="images/logo-footer.svg" alt="" loading="lazy">
         </a>
         <div class="footer__menu">
           <h4>
@@ -40,6 +40,8 @@
               <h4>Партнёрам</h4>
             </a>
           </li>
+        </ul>
+        <ul class="footer__list">
           <li class="footer__list-item">
             <a class="footer__list-link" href="#!">
               <h4>Блог</h4>
@@ -80,6 +82,22 @@
   </div>
 </footer>
 </div>
+<div class="modal" id="callback">
+  <div class="modal__box">
+    <button class="modal__close-btn">
+      <span></span>
+    </button>
+    <p class="title">Свяжитесь с нами</p>
+    <form class="callback__form" action="">
+      <input class="body-m-b" type="text" name="name" placeholder="Имя">
+      <input class="body-m-b" type="tel" name="tel" placeholder="Телефон">
+      <input class="body-m-b" type="email" name="email" placeholder="Email">
+      <button class="body-m-b btn-blue" type="submit">Отправить</button>
+      <p class="body-s-r">Нажимая «Отправить» вы соглашаетесь с Политикой конфиденциальности</p>
+    </form>
+  </div>
+</div>
+
 <script defer src="libs/inputmask.min.js"></script>
 <script defer src="libs/swiper/swiper-bundle.min.js"></script>
 <script defer src="js/main.js"></script>

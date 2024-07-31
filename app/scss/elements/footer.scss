@@ -7,12 +7,13 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 140px;
-    height: 482px;
+    min-height: 482px;
   }
 
   &__top {
     display: flex;
     justify-content: space-between;
+    gap: 30px 20px;
     color: var(--white, #fff);
   }
 
@@ -47,11 +48,15 @@
   }
 
   &__list {
-    column-count: 2;
-    column-gap: 103px;
+    // column-count: 2;
+    // column-gap: 103px;
 
     &-item {
       margin-bottom: 30px;
+
+      &:last-child {
+        margin: 0;
+      }
     }
 
     &-link {
