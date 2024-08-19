@@ -334,7 +334,7 @@
 
   &__content {
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: auto;
   }
 
   &__items {
@@ -358,7 +358,6 @@
 }
 
 .why {
-
   &__inner {}
 
   &__title {
@@ -370,7 +369,7 @@
     gap: 30px;
     margin-bottom: 30px;
     padding-bottom: 10px;
-    overflow-x: scroll;
+    overflow-x: auto;
   }
 
   &__tab {

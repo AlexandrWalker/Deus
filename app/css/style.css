@@ -1215,7 +1215,7 @@ h4 {
 }
 .tasks__content {
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 .tasks__items {
   display: flex;
@@ -1243,7 +1243,7 @@ h4 {
   gap: 30px;
   margin-bottom: 30px;
   padding-bottom: 10px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 .why__tab {
   opacity: 0.4;
